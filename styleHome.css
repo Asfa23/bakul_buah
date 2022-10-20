@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati&display=swap');
+
+body {
+    font-family: 'Noto Serif Gujarati', serif;
+}
+
+.jumbotron {
+    background-image: url('img/bg-home.jpg');
+    height: 900px;
+    padding-left: 100px;
+}
+
+.fresh {
+    font-size: 70px;
+    font-family: fantasy;
+}
+
+.jumbotron button {
+    width: 150px;
+}
+
+.kelebihan {
+    padding: 0 115px;
+    
+}
+
+.circle {
+    background-color: #ffe1bd;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.lokasi d-flex justify-content-center align-content-center flex-wrap mt-5{
+    border-radius: 50%px;
+}
+        
+}

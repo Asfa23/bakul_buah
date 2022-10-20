@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bakul Buah</title>
+    <link rel="stylesheet" href="styleContact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body style="background-color: #ffe1bd;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light my-4 mx-5 rounded-pill p-2 bg-dark fixed-top">
+      <div class="container-fluid justify-content-between">
+          <div class="logo">
+              <a class="navbar-brand text-white" href="#">Bakul Buah</a>
+          </div>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="contact.html">Contact</a>
+              </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <div class="kotak-saran" style="width: 900px;">
+    <h1>Saran anda sangat membantu bagi kami</h1>
+
+    <form>
+      <div class="form-group">
+        <label for="nama">Nama</label>
+        <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+        <small id="email" class="form-text text-muted">Kami tidak pernah menyebarluaskan email anda</small>
+      </div>
+
+      <div class="form-group">
+        <label for="masukan">Masukan anda</label>
+        <textarea class="form-control" id="masukan" rows="3"></textarea>
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Saya bersedia menerima berita-berita terbaru dari Bakul Buah</label>
+      </div>
+    </form>
+    <button type="submit" class="btn btn-primary" style="background-color: #228c80;" onclick="showPopup()">Submit</button>
+  </div>
+
+  <div class="popup" style="display: none;">
+    <h2 class="text-white">Terimakasih saran yang diberikan</h2>
+    <button type="button" class="btn btn-dark close-modal" onclick="closePopup()">OK</button>        
+  </div>
+
+
+  <script src="script.js"></script>
+  <footer class="bg-dark text-white d-flex justify-content-center p-3 fixed-bottom">
+    EST. 1990
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

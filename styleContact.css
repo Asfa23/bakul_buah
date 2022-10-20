@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.kotak-saran {
+    padding-top: 200px;
+}
+
+.popup {
+    height: 120px; 
+    width: 520px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #de8002;
+    border-radius: 20px;
+    border: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.success {
+    width: 150px;
+    height: 150px;
+}
